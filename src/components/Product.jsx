@@ -3,12 +3,12 @@ import Buttom from "./Buttom";
 
 function Product({ product, mover, index }) {
   return (
-    <div className="w-full h-[23rem] py-20">
+    <div className="w-full h-[23rem] py-20 overflow-hidden">
       <div
         onMouseEnter={() => {
           mover(index);
         }}
-        className="max-w-screen-xl mx-auto flex justify-between items-center"
+        className="max-w-screen-xl mx-auto flex overflow-hidden justify-between items-center"
       >
         <h1 className="text-6xl capitalize font-semibold">{product.title}</h1>
         <div className="dets w-1/3">

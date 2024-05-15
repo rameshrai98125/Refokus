@@ -51,7 +51,7 @@ function Products() {
       {products.map((product, index) => (
         <Product key={index} index={index} mover={mover} product={product} />
       ))}
-      <div className="w-full h-full  top-0 pointer-events-none absolute">
+      <div className="w-full h-full overflow-hidden  top-0 pointer-events-none absolute">
         <motion.div
           initial={{ y: pos, x: "-50%" }}
           animate={{ y: pos + `rem` }}
