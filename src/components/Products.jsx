@@ -60,28 +60,28 @@ function Products() {
           <motion.div
             animate={{ y: -pos + `rem` }}
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-            className="window w-full h-full bg-sky-100"
+            className="window w-full h-full "
           >
             <img src={img1} alt="" />
           </motion.div>
           <motion.div
             animate={{ y: -pos + `rem` }}
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-            className="window w-full h-full bg-sky-200"
+            className="window w-full h-full"
           >
             <img src={img2} alt="" />
           </motion.div>
           <motion.div
             animate={{ y: -pos + `rem` }}
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-            className="window w-full h-full bg-sky-400"
+            className="window w-full h-full"
           >
             <img src={img3} alt="" />
           </motion.div>
           <motion.div
             animate={{ y: -pos + `rem` }}
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-            className="window w-full h-full bg-sky-500"
+            className="window w-full h-full"
           >
             <video autoPlay loop muted src={video4}></video>
           </motion.div>
